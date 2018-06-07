@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34ed29e3-f43b-4768-a983-caf28f562cbc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ArgumentsSourceExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EnunTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test-data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringTest.java" afterDir="false" />
     </list>
     <ignored path="JUnitCourse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +45,8 @@
       <file leaf-file-name="StringTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="162" column="11" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="11" />
+            <state relative-caret-position="635">
+              <caret line="43" column="20" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#196#197#0" expanded="true" />
@@ -69,7 +74,70 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumberTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/NumberTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnunTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EnunTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArgumentsSourceExampleTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ArgumentsSourceExampleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-data.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test-data.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-data.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/test-data.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -119,8 +187,12 @@
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/idea.vmoptions" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/StringTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/StringTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/test-data.csv" />
+        <option value="$PROJECT_DIR$/src/test/java/NumberTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EnunTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ArgumentsSourceExampleTest.java" />
       </list>
     </option>
   </component>
@@ -209,6 +281,24 @@
             </path>
             <path>
               <item name="JUnitCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CursoJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUnitCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CursoJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUnitCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CursoJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUnitCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -231,6 +321,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -243,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringTest$LargeStringTest">
+  <component name="RunManager" selected="JUnit.NumberTest.shouldPassNonNullEnumValueAsMethodParameter">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -307,14 +402,48 @@
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
-    <configuration name="StringTest$EmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoJUnit" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringTest$EmptyString" />
+      <option name="MAIN_CLASS_NAME" value="NumberTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="NumberTest.shouldPassNonNullEnumValueAsMethodParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoJUnit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumberTest" />
+      <option name="METHOD_NAME" value="shouldPassNonNullEnumValueAsMethodParameter(NumberTest$Pet)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="NumberTest.sumCallMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoJUnit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumberTest" />
+      <option name="METHOD_NAME" value="sumCallMethod(int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -348,40 +477,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringTest$LargeStringTest" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="StringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CursoJUnit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="StringTest.noRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CursoJUnit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringTest" />
-      <option name="METHOD_NAME" value="noRun" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -596,19 +691,19 @@
       <envs />
     </configuration>
     <list>
-      <item itemvalue="JUnit.StringTest.noRun" />
-      <item itemvalue="JUnit.StringTest" />
-      <item itemvalue="JUnit.StringTest$EmptyString" />
       <item itemvalue="JUnit.StringTest$LargeStringTest.test" />
       <item itemvalue="JUnit.StringTest$LargeStringTest" />
+      <item itemvalue="JUnit.NumberTest" />
+      <item itemvalue="JUnit.NumberTest.sumCallMethod" />
+      <item itemvalue="JUnit.NumberTest.shouldPassNonNullEnumValueAsMethodParameter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumberTest.shouldPassNonNullEnumValueAsMethodParameter" />
+        <item itemvalue="JUnit.NumberTest.sumCallMethod" />
+        <item itemvalue="JUnit.NumberTest" />
         <item itemvalue="JUnit.StringTest$LargeStringTest" />
         <item itemvalue="JUnit.StringTest$LargeStringTest.test" />
-        <item itemvalue="JUnit.StringTest$EmptyString" />
-        <item itemvalue="JUnit.StringTest" />
-        <item itemvalue="JUnit.StringTest.noRun" />
       </list>
     </recent_temporary>
   </component>
@@ -632,29 +727,11 @@
       <workItem from="1528166964010" duration="855000" />
       <workItem from="1528212158630" duration="363000" />
       <workItem from="1528223189465" duration="232000" />
-      <workItem from="1528383414303" duration="13651000" />
+      <workItem from="1528383414303" duration="15351000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringTest_performedTest - 2018.06.07 at 15h 45m 15s.xml">
-      <configuration name="StringTest.performedTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTest_noRun - 2018.06.07 at 15h 57m 24s.xml">
-      <configuration name="StringTest.noRun" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTest - 2018.06.07 at 15h 57m 52s.xml">
-      <configuration name="StringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTest - 2018.06.07 at 16h 00m 46s.xml">
-      <configuration name="StringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTest$EmptyString - 2018.06.07 at 16h 12m 08s.xml">
-      <configuration name="StringTest$EmptyString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringTest - 2018.06.07 at 16h 12m 24s.xml">
-      <configuration name="StringTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StringTest$EmptyString - 2018.06.07 at 16h 14m 23s.xml">
       <configuration name="StringTest$EmptyString" configurationId="JUnit" />
     </history-entry>
@@ -667,9 +744,27 @@
     <history-entry file="StringTest$LargeStringTest - 2018.06.07 at 16h 21m 59s.xml">
       <configuration name="StringTest$LargeStringTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NumberTest - 2018.06.07 at 17h 09m 30s.xml">
+      <configuration name="NumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberTest - 2018.06.07 at 17h 10m 02s.xml">
+      <configuration name="NumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberTest - 2018.06.07 at 17h 12m 59s.xml">
+      <configuration name="NumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberTest - 2018.06.07 at 17h 14m 24s.xml">
+      <configuration name="NumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberTest_sumCallMethod - 2018.06.07 at 17h 16m 24s.xml">
+      <configuration name="NumberTest.sumCallMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberTest_shouldPassNonNullEnumValueAsMethodParameter - 2018.06.07 at 17h 19m 16s.xml">
+      <configuration name="NumberTest.shouldPassNonNullEnumValueAsMethodParameter" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18052000" />
+    <option name="totallyTimeSpent" value="19752000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -954,10 +1049,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1920">
+            <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test-data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="162" column="11" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="11" />
+        <state relative-caret-position="635">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#196#197#0" expanded="true" />
@@ -984,13 +1103,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1920">
-            <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/test/java/NumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EnunTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ArgumentsSourceExampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
