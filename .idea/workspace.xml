@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34ed29e3-f43b-4768-a983-caf28f562cbc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="JUnitCourse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="190" column="34" selection-start-line="190" selection-start-column="34" selection-end-line="190" selection-end-column="34" />
+            <state relative-caret-position="342">
+              <caret line="162" column="11" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#196#197#0" expanded="true" />
@@ -64,6 +65,18 @@
                 <element signature="e#4636#4637#0" expanded="true" />
                 <element signature="e#4699#4700#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1920">
+                <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -107,6 +120,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/idea.vmoptions" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/StringTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -618,14 +632,11 @@
       <workItem from="1528166964010" duration="855000" />
       <workItem from="1528212158630" duration="363000" />
       <workItem from="1528223189465" duration="232000" />
-      <workItem from="1528383414303" duration="12753000" />
+      <workItem from="1528383414303" duration="13651000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringTest_performedTest - 2018.06.07 at 15h 44m 04s.xml">
-      <configuration name="StringTest.performedTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StringTest_performedTest - 2018.06.07 at 15h 45m 15s.xml">
       <configuration name="StringTest.performedTest" configurationId="JUnit" />
     </history-entry>
@@ -653,9 +664,12 @@
     <history-entry file="StringTest$LargeStringTest_test - 2018.06.07 at 16h 21m 30s.xml">
       <configuration name="StringTest$LargeStringTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringTest$LargeStringTest - 2018.06.07 at 16h 21m 59s.xml">
+      <configuration name="StringTest$LargeStringTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17154000" />
+    <option name="totallyTimeSpent" value="18052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -680,12 +694,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32806325" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32806325" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32928476" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32928476" />
       <window_info anchor="right" id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24930556" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24930556" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -942,8 +956,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="190" column="34" selection-start-line="190" selection-start-column="34" selection-end-line="190" selection-end-column="34" />
+        <state relative-caret-position="342">
+          <caret line="162" column="11" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#196#197#0" expanded="true" />
@@ -967,6 +981,16 @@
             <element signature="e#4636#4637#0" expanded="true" />
             <element signature="e#4699#4700#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1920">
+            <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
