@@ -14,6 +14,8 @@ import static org.junit.jupiter.api.Assertions.*;
 //@Disabled if I can run any test in this class I can use @Disabled in a class
 public class StringTest {
 
+    private String aString = null;
+
     @BeforeAll
     public static void useBeforAll() {
         System.out.println("Initialize the connection of DataBase ");
@@ -156,5 +158,49 @@ public class StringTest {
     @DisplayName("noRun")
     public void noRun() {
         assertTrue( true );
+    }
+
+    @Nested
+    @DisplayName("For a empty String")
+    class EmptyStringTest {
+
+        @BeforeEach
+        void setEmpty() {
+            aString = "";
+        }
+
+        @Test
+        @DisplayName("length should be 0 ")
+        void lengthZero() {
+            assertEquals( 0 , aString.length() );
+        }
+
+
+        @Test
+        @DisplayName("upper case is zero should be 0 ")
+        void toUpperCaseNested(){
+            assertEquals( "", aString.toUpperCase() );
+        }
+    }
+
+    @Nested
+    @DisplayName("For large strings")
+    class LargeStringTest {
+
+        @BeforeEach
+        @DisplayName("init aString")
+        void setLargeString() {
+            StringBuilder stringBuilderTableAscii = new StringBuilder();
+            for ( int i = 32; i < 127 ; i++ ) {
+                stringBuilderTableAscii.append( (char) i );
+            }
+            aString = stringBuilderTableAscii.toString();
+        }
+
+        @Test
+        void test() {
+
+        }
+
     }
 }
