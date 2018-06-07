@@ -3,9 +3,13 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import java.time.Duration;
+
 import static org.junit.jupiter.api.Assertions.*;
+
 /**
  * Created by Artur on 04/06/18.
+ * Simple test for use JUnit 5 and new features
  */
 public class StringTest {
 
@@ -119,5 +123,30 @@ public class StringTest {
     // to default delimiter is ','
     public void multipleUpperCaseCheck(String str, String capitalized) {
         assertEquals( capitalized, str.toUpperCase() );
+    }
+
+    //Sample to give name to ParameterizedTest
+    @ParameterizedTest( name = "the string {0} length is {1}") //change de out put {0} before ',' and {1} after ',
+    @CsvSource( value =  { "abcd,4", "abc,3", "ab,2", "a,1", "'',0"})
+    public void multipleUpperLenght(String str, int expectedLength) {
+        assertEquals( str.length(), expectedLength );
+    }
+
+    @Test
+    @RepeatedTest( 3 ) // only in JUnit 5
+    @DisplayName("repatManyTimesTest")
+    public void repatManyTimesTest() {
+        assertEquals("same", "same");
+
+    }
+
+    @Test
+    public void performedTest() {
+        assertTimeout( Duration.ofSeconds(5), () -> {
+            for (int i = 0; i < 100; i++ ) {
+                System.out.println( i );
+            }
+        });
+
     }
 }
