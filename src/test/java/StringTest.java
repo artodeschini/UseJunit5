@@ -11,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * Created by Artur on 04/06/18.
  * Simple test for use JUnit 5 and new features
  */
+//@Disabled if I can run any test in this class I can use @Disabled in a class
 public class StringTest {
 
     @BeforeAll
@@ -148,5 +149,12 @@ public class StringTest {
             }
         });
 
+    }
+
+    @Test
+    @Disabled
+    @DisplayName("noRun")
+    public void noRun() {
+        assertTrue( true );
     }
 }
