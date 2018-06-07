@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -109,7 +110,14 @@ public class StringTest {
 
     @ParameterizedTest
     @ValueSource(strings= { "ABCD" , "ABC", "AB" } )
-    void lengthMoreThanZeroParametrize(String string) {
+    public void lengthMoreThanZeroParametrize(String string) {
         assertTrue( string.length() > 0 );
+    }
+
+    @ParameterizedTest
+    @CsvSource( value =  { "abcd,ABCD", "abc,ABC", "ab,AB", "a,A"})
+    // to default delimiter is ','
+    public void multipleUpperCaseCheck(String str, String capitalized) {
+        assertEquals( capitalized, str.toUpperCase() );
     }
 }
